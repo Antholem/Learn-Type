@@ -56,14 +56,14 @@ nav .navigation ul li {
 
 nav .navigation ul li a {
     text-decoration: none;
-    color: rgb(21, 21, 100);
+    color: #710e1d;
     font-size: 16px;
     font-weight: 500;
     transition: 0.3s ease;
 }
 
 nav .navigation ul li a:hover {
-    color: #FDC93B;
+    color: #cc9837;
 }
 /* 
 @media (max-width: 769px) {
