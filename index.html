@@ -4,36 +4,37 @@
         <meta charset='UTF-8'>
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <link rel="icon" type="images/sol" href="images/learn-type-logo.png">
+        <link rel='icon' type='images/sol' href='images/learn-type-logo.png'>
         <link rel='stylesheet' href='style.css'>
         <title>Learn Type</title>
     </head>
     <body>
         <nav>
-            <a href="/" onclick="route()">
-                <img src="images/learn-type-lettermark.png" alt="logo">
-            </a>
-            <div class="navigation">
+            <img src='images/learn-type-lettermark.png' alt='learn-type'>
+            <div class='navigation'>
                 <ul>
                     <li>
-                        <a href="/" onclick="route()">Home</a>
+                        <a class='active' href='/' onclick='route()'>Home</a>
                     </li>
                     <li>
-                        <a href="/about" onclick="route()">About</a>
+                        <a href='/about' onclick='route()'>About</a>
                     </li>
                     <li>
-                        <a href="/blog" onclick="route()">Blog</a>
+                        <a href='/blog' onclick='route()'>Blog</a>
                     </li>
                     <li>
-                        <a href="/courses" onclick="route()">Courses</a>
+                        <a href='/courses' onclick='route()'>Courses</a>
                     </li>
                     <li>
-                        <a href="/contact" onclick="route()">Contact</a>
+                        <a href='/contact' onclick='route()'>Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div id="rendered-content"></div>
-        <script src="scripts/router.js"></script>
+        <div id='rendered-content'>
+            <!-- Render Page.. -->
+        </div>
+        <script src='scripts/scripts.js'></script>
+        <script src='scripts/router.js'></script>
     </body>
 </html>

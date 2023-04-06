@@ -40,7 +40,6 @@ nav {
 
 nav img {
     width: 150px;
-    cursor: pointer;
 }
 
 nav .navigation ul {
@@ -65,6 +64,11 @@ nav .navigation ul li a {
 nav .navigation ul li a:hover {
     color: #cc9837;
 }
+
+nav .navigation ul li a.active {
+    color: #cc9837;
+}
+
 /* 
 @media (max-width: 769px) {
 
