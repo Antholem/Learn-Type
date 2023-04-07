@@ -11,6 +11,11 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+::selection {
+    background-color: #cc9837;
+    color: #fff;
+}
+
 /* Global Tags */
 
 h1 {
@@ -32,6 +37,9 @@ h6 {
 /* NAVIGATION */
 
 nav {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -72,6 +80,70 @@ nav .navigation ul li a.active {
 }
 
 /* ****** */
+
+/* NAVIGATION */
+
+#home {
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),url('/images/back.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#home h2 {
+    color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+#home p {
+    width: 50%;
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+#home .btn {
+    margin-top: 30px;
+}
+
+#home a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#home a.blue {
+    color: #fff;
+    background-color: #710e1d;
+    transition: 0.3s ease;
+}
+
+#home a.blue:hover {
+    color: #710e1d;
+    background-color: #fff;
+}
+
+#home a.yellow {
+    color: #fff;
+    background-color: #cc9837;
+    transition: 0.3s ease;
+}
+
+#home a.yellow:hover {
+    color: #710e1d;
+    background-color: #fff;
+}
 
 /* 
 @media (max-width: 769px) {
