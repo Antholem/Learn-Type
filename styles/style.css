@@ -81,7 +81,7 @@ nav .navigation ul li a.active {
 
 /* ****** */
 
-/* NAVIGATION */
+/* Home */
 
 #home {
     background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)),url('/images/back.jpg');
@@ -144,6 +144,46 @@ nav .navigation ul li a.active {
     color: #710e1d;
     background-color: #fff;
 }
+
+/* ****** */
+
+/* Features */
+#features {
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#features .fea-base {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#features .fea-box {
+    background-color: #F9F9FF;
+    text-align: start;
+}
+
+#features .fea-box i {
+    font-size: 2.3rem;
+    color: #710e1d;
+}
+
+#features .fea-box h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #710e1d;
+    padding: 13px 0 7px 0;
+}
+
+#features .fea-box p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #710e1d;
+}
+
+/* ****** */
 
 /* 
 @media (max-width: 769px) {
