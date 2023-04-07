@@ -16,7 +16,7 @@ body {
 h1 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: rgb(35, 35, 85);
+    color: #710e1d;
 }
 
 span {
@@ -29,13 +29,15 @@ h6 {
     color: rgb(24, 24, 49);
 }
 
+/* NAVIGATION */
+
 nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 1vw 8vw;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.149);
 }
 
 nav img {
@@ -68,6 +70,8 @@ nav .navigation ul li a:hover {
 nav .navigation ul li a.active {
     color: #cc9837;
 }
+
+/* ****** */
 
 /* 
 @media (max-width: 769px) {
