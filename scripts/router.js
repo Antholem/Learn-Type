@@ -6,12 +6,12 @@ const route = (event) => {
 };
 
 const routes = {
-    404: '/pages/404.html',
-    '/': '/pages/home.html',
-    '/about': '/pages/about.html',
-    '/blog': '/pages/blog.html',
-    '/courses': '/pages/courses.html',
-    '/contact': '/pages/contact.html',
+    404: '/pages/error/404.html',
+    '/': '/pages/home/home.html',
+    '/about': '/pages/about/about.html',
+    '/blog': '/pages/blog/blog.html',
+    '/courses': '/pages/courses/courses.html',
+    '/contact': '/pages/contact/contact.html',
 };
 
 const pageLocationHandler = async () => {
