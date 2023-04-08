@@ -346,10 +346,10 @@ nav .navigation ul li a.active {
 
 .pro-links i {
     padding: 10px 13px;
-    color: #710e1d;
+    color: #710e0e;
     border: 1px solid #710e1d;
     cursor: pointer;
-    transition: 0.3 ease;
+    transition: 0.3s ease;
 }
 
 .pro-links i:hover {
@@ -358,7 +358,104 @@ nav .navigation ul li a.active {
     border: 1px solid #710e1d;
     cursor: pointer;
 }
+/* ****** */
 
+/* Footer */
+footer {
+    padding: 8vw;
+    background-color: #710e1d;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .footer-col {
+    padding-bottom: 40px;
+}
+
+footer h3 {
+    color: rgb(241, 240, 245);
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer li {
+    list-style: none;
+    color: #b0b1b3;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer li:hover {
+    color: rgb(241, 240, 245);
+}
+
+footer p {
+    color: #b0b1b3;
+}
+
+footer .subscribe {
+    margin-top: 20px;
+}
+
+footer input {
+    width: 220px;
+    padding: 15px 12px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: #000000;
+}
+
+footer .subscribe a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+footer .subscribe a.yellow {
+    color: #710e1d;
+    background-color: #cc9837;
+    transition: 0.3s ease;
+}
+
+footer .subscribe a.yellow:hover {
+    color: #710e1d;
+    background-color: #fff;
+}
+
+footer .copyright {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+footer .copyright p {
+    color: #fff;
+}
+
+footer .copyright .pro-links {
+    margin-top: 0px;
+}
+
+footer .copyright .pro-links i {
+    background-color: #5f7185;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+footer .copyright .pro-links i:hover {
+    background-color: #cc9837;
+    color: #710e1d;
+}
 /* ****** */
 
 /* 
