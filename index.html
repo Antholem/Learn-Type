@@ -5,6 +5,7 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
         <script src="https://kit.fontawesome.com/1faa6ce68a.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
         <link rel='icon' type='images/sol' href='images/learn-type-logo.png'>
         <link rel='stylesheet' href='styles/style.css'>
         <title>Learn Type</title>
@@ -14,6 +15,7 @@
             <img src='images/learn-type-lettermark.png' alt='learn-type'>
             <div class='navigation'>
                 <ul>
+                    <i id="menu-close" class="fa-solid fa-xmark"></i>
                     <li>
                         <a class='active' href='/' onclick='route()'>Home</a>
                     </li>
@@ -30,6 +32,7 @@
                         <a href='/contact' onclick='route()'>Contact</a>
                     </li>
                 </ul>
+                <i id="menu-btn" class="fa-solid fa-bars"></i>
             </div>
         </nav>
         <div id='rendered-content'>
@@ -38,17 +41,10 @@
         <footer>
             <div class="footer-col">
                 <h3>Top Products</h3>
-                <li>Management Reputation</li>
+                <li>Management</li>
                 <li>Power Tools</li>
                 <li>Managed Website</li>
                 <li>Marketing Service</li>
-            </div>
-            <div class="footer-col">
-                <h3>Quick Links</h3>
-                <li>Jobs</li>
-                <li>Brand Assets</li>
-                <li>Investor Relation</li>
-                <li>Terms of Service</li>
             </div>
             <div class="footer-col">
                 <h3>Navigations</h3>
@@ -63,6 +59,13 @@
                 <li>Research</li>
                 <li>Experts</li>
                 <li>Marketing</li>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <li>Jobs</li>
+                <li>Brand Assets</li>
+                <li>Investor Relation</li>
+                <li>Terms of Service</li>
             </div>
             <div class="footer-col">
                 <h3>News Letter</h3>
