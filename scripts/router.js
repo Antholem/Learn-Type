@@ -12,6 +12,7 @@ const routes = {
     '/blog': '/pages/blog/blog.html',
     '/courses': '/pages/courses/courses.html',
     '/contact': '/pages/contact/contact.html',
+    '/post1': '/pages/blog/post1.html',
 };
 
 const pageLocationHandler = async () => {
