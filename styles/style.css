@@ -31,6 +31,7 @@ span {
 
 h6 {
     font-size: 1.1rem;
+    color: rgb(24, 24, 49);
 }
 
 a {
@@ -138,19 +139,18 @@ nav .navigation ul li a.active {
 }
 
 #home-header a.blue {
-    border-radius: 5px;
     color: #fff;
     background-color: #710e1d;
     transition: 0.3s ease;
 }
 
 #home-header a.blue:hover {
-    background-color: #cc9837;
+    color: #710e1d;
+    background-color: #fff;
 }
 
 #home-header a.yellow {
-    border-radius: 5px;
-    color: #710e1d;
+    color: #fff;
     background-color: #cc9837;
     transition: 0.3s ease;
 }
@@ -195,6 +195,7 @@ nav .navigation ul li a.active {
 #features .fea-box p {
     font-size: 1rem;
     font-weight: 400;
+    color: #710e1d;
 }
 
 /* ****** */
@@ -289,7 +290,7 @@ nav .navigation ul li a.active {
 }
 
 #registration .form {
-    background-color: rgb(247, 246, 250);
+    background-color: #fff;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -297,19 +298,17 @@ nav .navigation ul li a.active {
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
-#registration .form h3 {
-    text-align: center;
+#registration .form input {
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid #710e1d;
+    outline: none;
 }
 
-#registration .form input {
-    font-size: 14px;
-    font-weight: 400;
-    border-radius: 3px;
-    border: 1px solid #b0b1b3;
-    background-color: #fff;
-    padding: 20px 30px;
-    margin: 15px 0;
-    outline: none;
+#registration .form input::placeholder {
+    color: #5a5656;
+    font-weight: 500;
+    font-size: 0.9rem;
 }
 
 #registration .form .btn {
@@ -326,14 +325,14 @@ nav .navigation ul li a.active {
 }
 
 #registration .form a.yellow {
-    border-radius: 5px;
     color: #fff;
-    background-color: #710e1d;
+    background-color: #cc9837;
     transition: 0.3s ease;
 }
 
 #registration .form a.yellow:hover {
-    background-color: #cc9837;
+    color: #710e1d;
+    background-color: #fff;
 }
 /* ****** */
 
@@ -361,7 +360,6 @@ nav .navigation ul li a.active {
 
 .pro-links i {
     padding: 10px 13px;
-    border-radius: 5px;
     color: #710e1d;
     border: 1px solid #710e1d;
     cursor: pointer;
@@ -418,15 +416,12 @@ footer .subscribe {
 }
 
 footer input {
-    font-size: 14px;
-    font-weight: 400;
-    border-radius: 3px;
-    padding: 20px 30px;
     width: 220px;
     padding: 15px 12px;
-    background-color: #ffffff;
+    background-color: #fff;
     border: none;
     outline: none;
+    color: #000000;
 }
 
 footer .subscribe a {
@@ -438,7 +433,6 @@ footer .subscribe a {
 }
 
 footer .subscribe a.yellow {
-    border-radius: 5px;
     color: #710e1d;
     background-color: #cc9837;
     transition: 0.3s ease;
@@ -467,13 +461,13 @@ footer .copyright .pro-links {
 }
 
 footer .copyright .pro-links i {
-    background-color: #cc9837;
-    color: #710e1d;
+    background-color: #5f7185;
+    color: #fff;
     transition: 0.3s ease;
 }
 
 footer .copyright .pro-links i:hover {
-    background-color: #fff;
+    background-color: #cc9837;
     color: #710e1d;
 }
 /* ****** */
@@ -630,11 +624,6 @@ footer .copyright .pro-links i:hover {
     color: #fff;
     border-radius: 5px;
     font-weight: 600;
-    transition: 0.3s ease;
-}
-
-#blog-container .blogs .post a:hover {
-    background-color: #cc9837;
 }
 
 #blog-container .cate {
@@ -897,11 +886,6 @@ footer .copyright .pro-links i:hover {
     font-weight: 600;
     color: #fff;
     background-color: #710e1d;
-    transition: 0.3s ease;
-}
-
-#course-inner .enroll .enroll-btn a:hover {
-    background-color: #cc9837;
 }
 
 /* C O N T A C T */
@@ -937,7 +921,7 @@ footer .copyright .pro-links i:hover {
 }
 
 #contact .getin h2 {
-    color: rgb(41, 48, 59);
+    color: #2c234d;
     font-size: 30px;
     font-weight: 800;
     line-height: .8;
@@ -990,7 +974,7 @@ footer .copyright .pro-links i:hover {
 
 #contact .form h4 {
     font-size: 24px;
-    color: rgb(41, 48, 59);
+    color: #2c234d;
     line-height: 30px;
     margin-bottom: 8px;
 }
@@ -1012,8 +996,9 @@ footer .copyright .pro-links i:hover {
     font-size: 14px;
     font-weight: 400;
     border-radius: 3px;
-    border: 1px solid #b0b1b3;
+    border: none;
     background-color: #fff;
+    color: #7e7c87;
     outline: none;
     padding: 20px 30px;
     margin-bottom: 20px;
@@ -1025,7 +1010,7 @@ footer .copyright .pro-links i:hover {
     font-size: 14px;
     font-weight: 400;
     border-radius: 3px;
-    border: 1px solid #b0b1b3;
+    border: none;
     background-color: #fff;
     color: #7e7c87;
     outline: none;
@@ -1043,11 +1028,6 @@ footer .copyright .pro-links i:hover {
     font-weight: 600;
     cursor: pointer;
     color: #fff;
-    transition: 0.3s ease;
-}
-
-#contact .form button:hover {
-    background-color: #cc9837;
 }
 
 #map {
@@ -1186,6 +1166,13 @@ footer .copyright .pro-links i:hover {
         margin-top: 25px;
         width: 100%;
     }
+    /* C O N T A C T */
+    /* #contact {
+        padding: 8vw 4vw;
+    }
+    #contact .getin {
+        width: 250px;
+    } */
      /* C O N T A C T */
     #contact {
         padding: 8vw 4vw;
