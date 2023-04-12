@@ -31,7 +31,7 @@ span {
 
 h6 {
     font-size: 1.1rem;
-    color: rgb(24, 24, 49);
+    color: rgb(0, 0, 0);
 }
 
 a {
@@ -166,6 +166,11 @@ nav .navigation ul li a.active {
     text-align: center;
 }
 
+#features p {
+    color: #2d2d2d;
+    font-weight: 400;
+}
+
 #features .fea-base {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -186,14 +191,14 @@ nav .navigation ul li a.active {
 #features .fea-box h3 {
     font-size: 1.2rem;
     font-weight: 600;
-    color: #710e1d;
+    color: #000000;
     padding: 13px 0 7px 0;
 }
 
 #features .fea-box p {
     font-size: 1rem;
     font-weight: 400;
-    color: #710e1d;
+    color: #2d2d2d;
 }
 
 /* ****** */
@@ -202,6 +207,11 @@ nav .navigation ul li a.active {
 #home-course {
     padding: 8vw 8vw 8vw 8vw;
     text-align: center;
+}
+
+#home-course p {
+    color: #2d2d2d;
+    font-weight: 400;
 }
 
 #home-course .course-box {
@@ -261,6 +271,10 @@ nav .navigation ul li a.active {
     align-items: center;
 }
 
+#registration .form h3 {
+    color: #000000;
+}
+
 #registration .reminder {
     color: #fff;
 }
@@ -300,14 +314,14 @@ nav .navigation ul li a.active {
     border-radius: 5px;
     border: 1px solid #b0b1b3;
     background-color: #fff;
-    color: #7e7c87;
+    color: #2d2d2d;
     margin: 15px 0;
     padding: 15px 10px;
     outline: none;
 }
 
 #registration .form input::placeholder {
-    color: #5a5656;
+    color: #939393;
     font-size: 0.9rem;
 }
 
@@ -341,6 +355,10 @@ nav .navigation ul li a.active {
     text-align: center;
 }
 
+#experts p {
+   color: rgb(45, 45, 45);
+}
+
 #experts .expert-box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -353,11 +371,17 @@ nav .navigation ul li a.active {
     padding: 30px 10px;
 }
 
+#experts .expert-box .profile p {
+    font-weight: 400;
+    color: #2d2d2d;
+}
+
 .pro-links {
     margin-top: 10px;
 }
 
 .pro-links i {
+    border-radius: 5px;
     padding: 10px 13px;
     color: #710e1d;
     border: 1px solid #710e1d;
@@ -368,8 +392,6 @@ nav .navigation ul li a.active {
 .pro-links i:hover {
     background-color: #710e1d;
     color: #fff;
-    border: 1px solid #710e1d;
-    cursor: pointer;
 }
 /* ****** */
 
@@ -465,14 +487,14 @@ footer .copyright .pro-links {
 }
 
 footer .copyright .pro-links i {
-    background-color: #5f7185;
-    color: #fff;
+    background-color: #fff;
+    color: #710e1d;
     transition: 0.3s ease;
 }
 
 footer .copyright .pro-links i:hover {
     background-color: #cc9837;
-    color: #710e1d;
+    color: #fff;
 }
 /* ****** */
 
@@ -518,13 +540,13 @@ footer .copyright .pro-links i:hover {
 }
 
 #about-container .about-text h2 {
-    color:  #29303B;
+    color:  #000000;
     padding-bottom: 15px;
 }
 
 #about-container .about-text p {
-    color: #686F7A;
-    font-weight: 300;
+    color: #2d2d2d;
+    font-weight: 400;
 }
 
 #about-container .about-text .about-fe {
@@ -547,12 +569,16 @@ footer .copyright .pro-links i:hover {
 
 #about-container .about-text .about-fe .fe-text h5 {
     font-size: 16px;
-    color: #29303B;
+    color: #000000;
 }
 
 #trust {
     text-align: center;
     padding: 8vw;
+}
+
+#trust p {
+    color: #000000;
 }
 
 #trust .trust-img {
@@ -611,12 +637,12 @@ footer .copyright .pro-links i:hover {
 }
 
 #blog-container .blogs .post h3 {
-    color: #29303B;
+    color: #000000;
     padding: 15px 0 10px 0;
 }
 
 #blog-container .blogs .post p {
-    color: #757373;
+    color: #2d2d2d;
     padding-bottom: 20px;
 }
 
@@ -647,9 +673,13 @@ footer .copyright .pro-links i:hover {
 }
 
 #blog-container .cate a {
-    color: #757373;
+    color: #2d2d2d;
     font-weight: 500;
     line-height: 45px;
+}
+
+#blog-container .cate a:hover {
+    color: #710e1d;
 }
 
 #blog-container .blogpost {
@@ -686,6 +716,10 @@ footer .copyright .pro-links i:hover {
 #course {
     padding: 8vw 8vw 8vw 8vw;
     text-align: center;
+}
+
+#course p {
+    color: #2d2d2d;
 }
 
 #course .course-box {
@@ -732,7 +766,7 @@ footer .copyright .pro-links i:hover {
 }
 
 .courses .details h6 a {
-    color: #181831;
+    color: rgb(0, 0, 0);
     transition: 0.3s ease;
 }
 
@@ -769,11 +803,11 @@ footer .copyright .pro-links i:hover {
 
 #course-inner h3 {
     padding: 35px 0 25px 0;
-    color: #29303B;
+    color: #000000;
 }
 
 #course-inner p {
-    color: #64626e;
+    color: #2d2d2d;
     padding-bottom: 10px;
 }
 
@@ -806,7 +840,7 @@ footer .copyright .pro-links i:hover {
 }
 
 #course-inner .overview .course-head .c-name h2 {
-    color: #29303B;
+    color: #000000;
 }
 
 #course-inner .overview .course-head .c-name .star {
@@ -828,7 +862,7 @@ footer .copyright .pro-links i:hover {
     color: #710e1d;
     font-size: 24px;
     font-weight: 700;
-    background-color: rgba(88, 56, 252, 0.1);
+    background-color: #dfdfdf;
 }
 
 #course-inner .learn p {
@@ -862,7 +896,7 @@ footer .copyright .pro-links i:hover {
     width: 300px;
     padding: 0 30px 30px 30px;
     border-radius: 11px;
-    box-shadow: 0px 20px 40px 0 rgb(11 2 55 / 8%);
+    box-shadow: 0px 5px 10px 0 rgb(204, 204, 204);
 }
 
 #course-inner .enroll h3 {
@@ -871,7 +905,7 @@ footer .copyright .pro-links i:hover {
 
 #course-inner .enroll p {
     font-size: 15px;
-    color: #64626e;
+    color: #2d2d2d;
     margin: 15px 0;
 }
 
@@ -941,7 +975,7 @@ footer .copyright .pro-links i:hover {
 }
 
 #contact .getin h2 {
-    color: #2c234d;
+    color: #000000;
     font-size: 30px;
     font-weight: 800;
     line-height: .8;
@@ -949,7 +983,7 @@ footer .copyright .pro-links i:hover {
 }
 
 #contact .getin p {
-    color: #686875;
+    color: #2d2d2d;;
     line-height: 24px;
     margin-bottom: 33px;
     padding-bottom: 25px;
@@ -957,7 +991,7 @@ footer .copyright .pro-links i:hover {
 }
 
 #contact .getin h3 {
-    color: #2c234d;
+    color: #000000;
     font-size: 16px;
     font-weight: 600;
     line-height: 26px;
@@ -994,13 +1028,13 @@ footer .copyright .pro-links i:hover {
 
 #contact .form h4 {
     font-size: 24px;
-    color: #2c234d;
+    color: #000000;
     line-height: 30px;
     margin-bottom: 8px;
 }
 
 #contact .form p {
-    color: #686875;
+    color: #2d2d2d;
     line-height: 24px;
     padding-bottom: 25px;
 }
