@@ -297,14 +297,9 @@ nav .navigation ul li a.active {
 }
 
 #registration .form input {
-    font-size: 14px;
-    font-weight: 400;
-    border-radius: 5px;
-    border: 1px solid #b0b1b3;
-    background-color: #fff;
-    color: #7e7c87;
     margin: 15px 0;
     padding: 15px 10px;
+    border: 1px solid #710e1d;
     outline: none;
 }
 
