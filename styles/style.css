@@ -130,7 +130,6 @@ nav .navigation ul li a.active {
 }
 
 #home-header a {
-    text-decoration: none;
     font-size: 0.9rem;
     padding: 13px 35px;
     background-color: #fff;
@@ -145,8 +144,7 @@ nav .navigation ul li a.active {
 }
 
 #home-header a.crimson:hover {
-    color: #710e1d;
-    background-color: #fff;
+    background-color: #cc9837;
 }
 
 #home-header a.aureate {
@@ -290,7 +288,7 @@ nav .navigation ul li a.active {
 }
 
 #registration .form {
-    background-color: #fff;
+    background-color: rgb(247, 246, 250);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -299,15 +297,19 @@ nav .navigation ul li a.active {
 }
 
 #registration .form input {
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid #b0b1b3;
+    background-color: #fff;
+    color: #7e7c87;
     margin: 15px 0;
     padding: 15px 10px;
-    border: 1px solid #710e1d;
     outline: none;
 }
 
 #registration .form input::placeholder {
     color: #5a5656;
-    font-weight: 500;
     font-size: 0.9rem;
 }
 
@@ -324,15 +326,14 @@ nav .navigation ul li a.active {
     border-radius: 5px;
 }
 
-#registration .form a.aureate {
+#registration .form a.crimson {
     color: #fff;
-    background-color: #cc9837;
+    background-color: #710e1d;
     transition: 0.3s ease;
 }
 
-#registration .form a.aureate:hover {
-    color: #710e1d;
-    background-color: #fff;
+#registration .form a.crimson:hover {
+    background-color: #cc9837;
 }
 /* ****** */
 
@@ -416,6 +417,10 @@ footer .subscribe {
 }
 
 footer input {
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: #7e7c87;
     width: 220px;
     padding: 15px 12px;
     background-color: #fff;
@@ -430,10 +435,11 @@ footer .subscribe a {
     padding: 12px 15px;
     background-color: #fff;
     font-weight: 600;
+    border-radius: 5px;
 }
 
 footer .subscribe a.aureate {
-    color: #710e1d;
+    color: #fff;
     background-color: #cc9837;
     transition: 0.3s ease;
 }
@@ -627,6 +633,11 @@ footer .copyright .pro-links i:hover {
 #blog-container .blogs .post a.crimson {
     background-color: #710e1d;
     color: #fff;
+    transition: 0.3s ease;
+}
+
+#blog-container .blogs .post a.crimson:hover {
+    background-color: #cc9837;
 }
 
 #blog-container .cate {
@@ -882,13 +893,21 @@ footer .copyright .pro-links i:hover {
     text-align: center;
 }
 
-#course-inner .enroll .enroll-btn a.crimson {
-    font-size:  0.8rem;
-    padding: 13px 45px;
+#course-inner .enroll .enroll-btn a {
+    font-size: 0.8rem;
+    padding: 13px 35px;
     border-radius: 5px;
     font-weight: 600;
+}
+
+#course-inner .enroll .enroll-btn a.crimson {
     color: #fff;
     background-color: #710e1d;
+    transition: 0.3s ease;
+}
+
+#course-inner .enroll .enroll-btn a.crimson:hover {
+    background-color: #cc9837;
 }
 
 /* C O N T A C T */
@@ -998,8 +1017,8 @@ footer .copyright .pro-links i:hover {
     width: 48%;
     font-size: 14px;
     font-weight: 400;
-    border-radius: 3px;
-    border: none;
+    border-radius: 5px;
+    border: 1px solid #b0b1b3;
     background-color: #fff;
     color: #7e7c87;
     outline: none;
@@ -1012,8 +1031,8 @@ footer .copyright .pro-links i:hover {
     width: 100%;
     font-size: 14px;
     font-weight: 400;
-    border-radius: 3px;
-    border: none;
+    border-radius: 5px;
+    border: 1px solid #b0b1b3;;
     background-color: #fff;
     color: #7e7c87;
     outline: none;
@@ -1021,7 +1040,7 @@ footer .copyright .pro-links i:hover {
     margin-bottom: 20px;
 }
 
-#contact .form .crimson {
+#contact .form button {
     font-size: 0.9rem;
     padding: 13px 25px;
     background-color: #710e1d;
@@ -1030,6 +1049,17 @@ footer .copyright .pro-links i:hover {
     border: none;
     font-weight: 600;
     cursor: pointer;
+    color: #fff;
+}
+
+#contact .form button.crimson {
+    background-color: #710e1d;
+    color: #fff;
+    transition: 0.3s ease;
+}
+
+#contact .form button.crimson:hover {
+    background-color: #cc9837;
     color: #fff;
 }
 
