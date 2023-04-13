@@ -44,11 +44,8 @@ $('#menu-close').click(function(){
 const countDownDate = new Date('Dec 30, 2023 15:58:58').getTime();
 
 const x = setInterval(function() {
-
     const now = new Date().getTime();
-
     const distance = countDownDate - now;
-
     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
     const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
