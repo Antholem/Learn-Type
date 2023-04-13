@@ -13,6 +13,9 @@ const routes = {
     '/courses': '/pages/courses/courses.html',
     '/contact': '/pages/contact/contact.html',
     '/post1': '/pages/blog/post1.html',
+    '/post2': '/pages/blog/post2.html',
+    '/post3': '/pages/blog/post3.html',
+    '/post4': '/pages/blog/post4.html',
     '/course-info1': '/pages/courses/course-info1.html',
 };
 
