@@ -168,8 +168,11 @@ nav .navigation ul li a.active {
 }
 
 #features .fea-box {
-    background-color: #F9F9FF;
     text-align: start;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 11px;
+    box-shadow: rgb(204, 204, 204) 0px 5px 10px 0px;
 }
 
 #features .fea-box i {
@@ -214,15 +217,19 @@ nav .navigation ul li a.active {
 
 #home-course .courses {
     text-align: start;
-    background-color: #F9F9FF;
+    background-color: #ffffff;
     height: 100%;
     position: relative;
+    border-radius: 5px;
+    box-shadow: rgb(204, 204, 204) 0px 5px 10px 0px;
+    padding-bottom: 10px;
 }
 
 #home-course .courses img {
     width: 100%;
     height: 60%;
     background-size: cover;
+    border-radius: 5px;
     background-position: center;
 }
 
@@ -245,7 +252,7 @@ nav .navigation ul li a.active {
     border-radius: 50%;
     position: absolute;
     right: 15px;
-    bottom: 100px;
+    bottom: 120px;
 }
 
 #registration {
@@ -354,7 +361,9 @@ nav .navigation ul li a.active {
 }
 
 #experts .expert-box .profile {
-    background-color: #fafaf1;
+    background-color: #ffffff;
+    border-radius: 11px;
+    box-shadow: rgb(204, 204, 204) 0px 5px 10px 0px;
     padding: 30px 10px;
 }
 
@@ -1160,6 +1169,13 @@ footer .copyright .pro-links i:hover {
         flex-wrap: wrap;
         margin-top: 40px;
     }
+    #registration .reminder .time .date {
+        display: flex;
+        justify-content: center;
+        width: 90px;
+        font-size: 15px;
+        text-align: center;
+    }
     #experts {
         padding: 8vw 8vw 4vw 8vw;
         text-align: center;
@@ -1210,14 +1226,6 @@ footer .copyright .pro-links i:hover {
         margin-top: 25px;
         width: 100%;
     }
-    /* C O N T A C T */
-    /* #contact {
-        padding: 8vw 4vw;
-    }
-    #contact .getin {
-        width: 250px;
-    } */
-     /* C O N T A C T */
     #contact {
         padding: 8vw 4vw;
         flex-direction: column;
@@ -1254,6 +1262,9 @@ footer .copyright .pro-links i:hover {
 }
 
 @media (max-width: 475px) {
+    #home-course .courses .details {
+        padding: 15px 15px 40px 15px;
+    }
     #registration {
         display: flex;
         flex-direction: column;
@@ -1327,6 +1338,13 @@ footer .copyright .pro-links i:hover {
     }
     #course-inner .enroll {
         width: 100%;
+    }
+    #registration .reminder .time .date {
+        display: flex;
+        justify-content: center;
+        width: 75px;
+        font-size: 15px;
+        text-align: center;
     }
 }
 
