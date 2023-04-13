@@ -17,6 +17,11 @@ const routes = {
     '/post3': '/pages/blog/post3.html',
     '/post4': '/pages/blog/post4.html',
     '/course-info1': '/pages/courses/course-info1.html',
+    '/course-info2': '/pages/courses/course-info2.html',
+    '/course-info3': '/pages/courses/course-info3.html',
+    '/course-info4': '/pages/courses/course-info4.html',
+    '/course-info5': '/pages/courses/course-info5.html',
+    '/course-info6': '/pages/courses/course-info6.html',
 };
 
 const pageLocationHandler = async () => {

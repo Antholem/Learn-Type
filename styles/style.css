@@ -774,7 +774,7 @@ footer .copyright .pro-links i:hover {
 }
 
 #course-info-header {
-    background-image: linear-gradient(#0905364d, #05042eb3), url('/images/back1.jpg');
+    background-image: linear-gradient(#0905364d, #05042eb3), url('/images/background-courses.png');
     width: 100%;
     height: 60vh;
     background-size: cover;
@@ -820,6 +820,10 @@ footer .copyright .pro-links i:hover {
     width: 70%;
 }
 
+#course-inner .overview .overview-content {
+    padding-bottom: 35px;
+}
+
 #course-inner .overview .course-img {
     width: 100%;
     height: 60vh;
@@ -832,6 +836,16 @@ footer .copyright .pro-links i:hover {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+}
+
+#course-inner .overview .course-head .c-name .other-info div i {
+    color: #710e1d;
+}
+
+#course-inner .overview .course-head .c-name .other-info div span {
+    font-size: 0.9rem;
+    color: #757373;
+    margin-left: 10px;
 }
 
 #course-inner .overview .course-head .c-name {
@@ -855,13 +869,13 @@ footer .copyright .pro-links i:hover {
     font-size: 15px;
 }
 
-#course-inner .overview .course-head span {
+#course-inner .overview .course-head .price {
     padding: 16px 22px;
     border-radius: 5px;
     color: #710e1d;
     font-size: 24px;
     font-weight: 700;
-    background-color: #dfdfdf;
+    background-color: #f7f6fa;
 }
 
 #course-inner .learn p {
@@ -877,7 +891,7 @@ footer .copyright .pro-links i:hover {
 
 #course-inner .tutor {
     display: flex;
-    padding-bottom: 10px;
+    padding-bottom: 35px;
 }
 
 #course-inner .tutor img {
@@ -931,6 +945,17 @@ footer .copyright .pro-links i:hover {
     font-weight: 600;
 }
 
+#course-inner .enroll .enroll-btn a.aureate {
+    color: #fff;
+    background-color: #cc9837;
+    transition: 0.3s ease;
+}
+
+#course-inner .enroll .enroll-btn a.aureate:hover {
+    background-color: #FFFFFF;
+    color: #710e1d;
+}
+
 #course-inner .enroll .enroll-btn a.crimson {
     color: #fff;
     background-color: #710e1d;
@@ -939,6 +964,12 @@ footer .copyright .pro-links i:hover {
 
 #course-inner .enroll .enroll-btn a.crimson:hover {
     background-color: #cc9837;
+}
+
+#course-inner div a.crimson {
+    color: #fff;
+    background-color: #710e1d;
+    transition: 0.3s ease;
 }
 
 #contact-header {
@@ -1341,7 +1372,7 @@ footer .copyright .pro-links i:hover {
     #course-inner .overview .course-head .c-name h2 {
         font-size: 22px;
     }
-    #course-inner .overview .course-head span {
+    #course-inner .overview .course-head .price {
         font-size: 22px;
     }
     #course-inner .enroll {
