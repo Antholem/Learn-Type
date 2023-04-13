@@ -200,6 +200,11 @@ nav .navigation ul li a.active {
     font-weight: 400;
 }
 
+#home-course .courses .details .instructor {
+    font-size: 0.9rem;
+    color: #757373;
+}
+
 #home-course .course-box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
