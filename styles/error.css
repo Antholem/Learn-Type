@@ -36,3 +36,257 @@
 #error-header a.crimson:hover {
     background-color: #cc9837;
 }
+
+@media (max-width: 912px) {
+    #blog-container .blogpost-content {
+        width: 100%;
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 769px) {
+    nav {
+        padding: 15px 20px;
+        z-index: 999;
+    }
+    nav img {
+        width: 130px;
+    }
+    #menu-btn {
+        cursor: pointer;
+        display: initial;
+        font-size: 1.6rem;
+        color: #710e1d;
+    }
+    #menu-close-btn {
+        display: flex;
+        cursor: pointer;
+        font-size: 1.6rem;
+        color: #710e1d;
+        padding: 30px 0 20px 20px;
+    }
+    nav .navigation-bar ul {
+        position: absolute;
+        top: 0;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        transition: 0.3s ease;
+    }
+    nav .navigation-bar ul.active {
+        right: 0;
+    }
+    nav .navigation-bar ul li {
+        padding: 20px 0 20px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav .navigation-bar ul li a {
+        color: #710e1d;
+    }
+    #home-header {
+        padding-top: 0px;
+    }
+    #home-header p {
+        width: 90%;
+    }
+    #features {
+        padding: 8vw 4vw 0 4vw;
+    }
+    #course {
+        padding: 8vw 4vw 0 4vw;
+    }
+    #registration {
+        margin-top: 8vw;
+        padding: 6vw 4vw 6vw 4vw;
+    }
+    #registration .countdown-date .time {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 40px;
+    }
+    #registration .countdown-date .time .date {
+        display: flex;
+        justify-content: center;
+        width: 90px;
+        font-size: 15px;
+        text-align: center;
+    }
+    #experts {
+        padding: 8vw 8vw 4vw 8vw;
+        text-align: center;
+    }
+    footer .copyright-container .brand-icons {
+        margin-top: 15px;
+    }
+    #about-container {
+        padding: 8vw 4vw 2vw 4vw;
+    }
+    #about-container .about-img {
+        padding-right: 30px;
+    }
+    #prog-languages .prog-languages-img img {
+        width: 50px;
+        height: auto;
+    }
+    #blog-container {
+        padding: 8vw 4vw;
+    }
+    #blog-container .blogpost-content {
+        width: 100%;
+        margin-top: 30px;
+    }
+    #blog-container .blogpost-content img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    #course-inner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 8vw 4vw;
+    }
+    #course-inner .overview {
+        width: 100%;
+    }
+    #course-inner .overview .course-img {
+        width: 100%;
+        height: 100%;
+    }
+    #course-inner .enroll {
+        margin-top: 25px;
+        width: 100%;
+    }
+    #contact {
+        padding: 8vw 4vw;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: flex-start;
+    }
+    #contact .contact-information {
+        width: 100%;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact .contact-form {
+        text-align: center;
+        width: 100%;
+        padding: 40px 30px;
+    }
+    #contact .contact-form .contact-form-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    #contact .contact-form .contact-form-row input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 540px) { 
+    #blog-container .blogpost-content {
+        margin-top: 70px;
+    }
+}
+
+@media (max-width: 475px) {
+    #home-course .courses .course-details {
+        padding: 15px 15px 40px 15px;
+    }
+    #registration {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #registration .countdown-date .time {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    #features .features-box {
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    #about-container {
+        flex-direction: column-reverse;
+    }
+    #about-container .about-img {
+        width: 100%;
+        padding-right: 0px;
+    }
+    #about-container .about-text {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    #prog-languages .prog-languages-img {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    #prog-languages .prog-languages-img img {
+        width: 60px;
+        height: auto;
+        margin: 10px 15px;
+    }
+    #blog-container {
+        flex-direction: column;
+    }
+    #blog-container .blogs-list {
+        width: 100%;
+    }
+    #blog-container .categories-list {
+        width: 100%;
+    }
+    #blog-container .blogpost-content {
+        width: 100%;
+        margin-top: 70px;
+    }
+    #blog-container .blogpost-content img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+    #course-inner .overview .course-head .course-information {
+        width: 50%;
+    }
+    #course-inner .overview .course-head .course-information h2 {
+        font-size: 22px;
+    }
+    #course-inner .overview .course-head .course-price {
+        font-size: 22px;
+    }
+    #course-inner .enrollment-container {
+        width: 100%;
+    }
+    #registration .countdown-date .time .date {
+        display: flex;
+        justify-content: center;
+        width: 75px;
+        font-size: 15px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 393px) {
+    footer input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
