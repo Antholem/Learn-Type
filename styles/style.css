@@ -1,14 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 ::selection {
@@ -160,14 +160,14 @@ nav .navigation-bar ul li a.active {
     font-weight: 400;
 }
 
-#features .fea-base {
+#features .features-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 1rem;
     margin-top: 50px;
 }
 
-#features .fea-box {
+#features .features-box {
     text-align: start;
     background-color: #ffffff;
     padding: 30px;
@@ -175,19 +175,19 @@ nav .navigation-bar ul li a.active {
     box-shadow: rgb(204, 204, 204) 0px 5px 10px 0px;
 }
 
-#features .fea-box i {
+#features .features-box i {
     font-size: 2.3rem;
     color: #710e1d;
 }
 
-#features .fea-box h3 {
+#features .features-box h3 {
     font-size: 1.2rem;
     font-weight: 600;
     color: #000000;
     padding: 13px 0 7px 0;
 }
 
-#features .fea-box p {
+#features .features-box p {
     font-size: 1rem;
     font-weight: 400;
     color: #2d2d2d;
@@ -203,7 +203,7 @@ nav .navigation-bar ul li a.active {
     font-weight: 400;
 }
 
-#home-course .courses .details .instructor {
+#home-course .courses .course-details .instructor {
     font-size: 0.9rem;
     color: #757373;
 }
@@ -233,16 +233,16 @@ nav .navigation-bar ul li a.active {
     background-position: center;
 }
 
-#home-course .courses .details {
+#home-course .courses .course-details {
     padding: 15px 15px 0 15px;
 }
 
-#home-course .courses .details i {
+#home-course .courses .course-details i {
     color: #cc9837;
     font-size: 0.9rem;
 }
 
-#home-course .courses .cost {
+#home-course .courses .course-price {
     background-color: #710e1d;
     color: #fff;
     line-height: 70px;
@@ -267,24 +267,24 @@ nav .navigation-bar ul li a.active {
     align-items: center;
 }
 
-#registration .form h3 {
+#registration .registration-form h3 {
     color: #000000;
 }
 
-#registration .reminder {
+#registration .countdown-date {
     color: #fff;
 }
 
-#registration .reminder h1 {
+#registration .countdown-date h1 {
     color: #fff;
 }
 
-#registration .reminder .time {
+#registration .countdown-date .time {
     display: flex;
     margin-top: 40px;
 }
 
-#registration .reminder .time .date {
+#registration .countdown-date .time .date {
     text-align: center;
     padding: 13px 33px;
     background-color: #ffffff40;
@@ -297,7 +297,7 @@ nav .navigation-bar ul li a.active {
     font-weight: 600;
 }
 
-#registration .form {
+#registration .registration-form {
     background-color: #f7f6fa;
     border-radius: 8px;
     display: flex;
@@ -306,7 +306,7 @@ nav .navigation-bar ul li a.active {
     box-shadow: 0 8px 32px 0 #1f26875e;
 }
 
-#registration .form input {
+#registration .registration-form input {
     border-radius: 5px;
     border: 1px solid #b0b1b3;
     background-color: #fff;
@@ -316,16 +316,16 @@ nav .navigation-bar ul li a.active {
     outline: none;
 }
 
-#registration .form input::placeholder {
+#registration .registration-form input::placeholder {
     color: #939393;
     font-size: 0.9rem;
 }
 
-#registration .form .btn {
+#registration .registration-form .btn {
     margin-top: 20px;
 }
 
-#registration .form a {
+#registration .registration-form a {
     text-decoration: none;
     font-size: 0.9rem;
     padding: 13px 35px;
@@ -334,13 +334,13 @@ nav .navigation-bar ul li a.active {
     border-radius: 5px;
 }
 
-#registration .form a.crimson {
+#registration .registration-form a.crimson {
     color: #fff;
     background-color: #710e1d;
     transition: 0.3s ease;
 }
 
-#registration .form a.crimson:hover {
+#registration .registration-form a.crimson:hover {
     background-color: #cc9837;
 }
 
@@ -353,25 +353,25 @@ nav .navigation-bar ul li a.active {
    color: #2d2d2d;
 }
 
-#experts .expert-box {
+#experts .expert-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 1rem;
     margin-top: 50px;
 }
 
-#experts .expert-box .profile {
+#experts .expert-container .expert-box {
     background-color: #ffffff;
     border-radius: 11px;
     box-shadow: rgb(204, 204, 204) 0px 5px 10px 0px;
     padding: 30px 10px;
 }
 
-#experts .expert-box .profile img {
+#experts .expert-container .expert-box img {
     border-radius: 50%;
 }
 
-#experts .expert-box .profile p {
+#experts .expert-container .expert-box p {
     font-weight: 400;
     color: #2d2d2d;
 }
@@ -742,16 +742,16 @@ footer .copyright-container .brand-icons i:hover {
     background-position: center;
 }
 
-#course .courses .details {
+#course .courses .course-details {
     padding: 15px 15px 0 15px;
 }
 
-#course .courses .details i {
+#course .courses .course-details i {
     color: #cc9837;
     font-size: 0.9rem;
 }
 
-#course .courses .cost {
+#course .courses .course-price {
     background-color: #710e1d;
     color: #fff;
     line-height: 70px;
@@ -764,12 +764,12 @@ footer .copyright-container .brand-icons i:hover {
     bottom: 100px;
 }
 
-.courses .details h6 a {
+.courses .course-details h6 a {
     color: #000000;
     transition: 0.3s ease;
 }
 
-.courses .details h6 a:hover {
+.courses .course-details h6 a:hover {
     color: #710e1d;
 }
 
@@ -856,11 +856,11 @@ footer .copyright-container .brand-icons i:hover {
     color: #000000;
 }
 
-#course-inner .overview .course-head .c-name .star {
+#course-inner .overview .course-head .c-name .rate {
     margin: 6px 0;
 }
 
-#course-inner .overview .course-head .c-name .star i {
+#course-inner .overview .course-head .c-name .rate i {
     color: #cc9837;
     font-size: 0.9rem;
 }
@@ -1048,7 +1048,7 @@ footer .copyright-container .brand-icons i:hover {
     margin-right: 8px;
 }
 
-#contact .form {
+#contact .contact-form {
     width: 60%;
     background-color: #FFFFFF;
     padding: 40px;
@@ -1056,26 +1056,26 @@ footer .copyright-container .brand-icons i:hover {
     box-shadow: rgb(204, 204, 204) 0px 5px 10px 0px;
 }
 
-#contact .form h4 {
+#contact .contact-form h4 {
     font-size: 24px;
     color: #000000;
     line-height: 30px;
     margin-bottom: 8px;
 }
 
-#contact .form p {
+#contact .contact-form p {
     color: #2d2d2d;
     line-height: 24px;
     padding-bottom: 25px;
 }
 
-#contact .form .form-row {
+#contact .contact-form .form-row {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-#contact .form .form-row input {
+#contact .contact-form .form-row input {
     width: 48%;
     font-size: 14px;
     font-weight: 400;
@@ -1088,8 +1088,8 @@ footer .copyright-container .brand-icons i:hover {
     margin-bottom: 20px;
 }
 
-#contact .form .form-col input,
-#contact .form .form-col textarea {
+#contact .contact-form .form-col input,
+#contact .contact-form .form-col textarea {
     width: 100%;
     font-size: 14px;
     font-weight: 400;
@@ -1102,7 +1102,7 @@ footer .copyright-container .brand-icons i:hover {
     margin-bottom: 20px;
 }
 
-#contact .form button {
+#contact .contact-form button {
     font-size: 0.9rem;
     padding: 13px 25px;
     background-color: #710e1d;
@@ -1114,13 +1114,13 @@ footer .copyright-container .brand-icons i:hover {
     color: #fff;
 }
 
-#contact .form button.crimson {
+#contact .contact-form button.crimson {
     background-color: #710e1d;
     color: #fff;
     transition: 0.3s ease;
 }
 
-#contact .form button.crimson:hover {
+#contact .contact-form button.crimson:hover {
     background-color: #cc9837;
     color: #fff;
 }
@@ -1243,12 +1243,12 @@ footer .copyright-container .brand-icons i:hover {
         margin-top: 8vw;
         padding: 6vw 4vw 6vw 4vw;
     }
-    #registration .reminder .time {
+    #registration .countdown-date .time {
         display: flex;
         flex-wrap: wrap;
         margin-top: 40px;
     }
-    #registration .reminder .time .date {
+    #registration .countdown-date .time .date {
         display: flex;
         justify-content: center;
         width: 90px;
@@ -1318,18 +1318,18 @@ footer .copyright-container .brand-icons i:hover {
         flex-direction: column;
         align-items: center;
     }
-    #contact .form {
+    #contact .contact-form {
         text-align: center;
         width: 100%;
         padding: 40px 30px;
     }
-    #contact .form .form-row {
+    #contact .contact-form .form-row {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         width: 100%;
     }
-    #contact .form .form-row input {
+    #contact .contact-form .form-row input {
         width: 100%;
     }
 }
@@ -1341,7 +1341,7 @@ footer .copyright-container .brand-icons i:hover {
 }
 
 @media (max-width: 475px) {
-    #home-course .courses .details {
+    #home-course .courses .course-details {
         padding: 15px 15px 40px 15px;
     }
     #registration {
@@ -1351,7 +1351,7 @@ footer .copyright-container .brand-icons i:hover {
         align-items: center;
         text-align: center;
     }
-    #registration .reminder .time {
+    #registration .countdown-date .time {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -1359,7 +1359,7 @@ footer .copyright-container .brand-icons i:hover {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    #features .fea-box {
+    #features .features-box {
         background-color: #FFFFFF;
         text-align: center;
     }
@@ -1418,7 +1418,7 @@ footer .copyright-container .brand-icons i:hover {
     #course-inner .enroll {
         width: 100%;
     }
-    #registration .reminder .time .date {
+    #registration .countdown-date .time .date {
         display: flex;
         justify-content: center;
         width: 75px;
