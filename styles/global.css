@@ -623,30 +623,30 @@ footer .copyright-container .brand-icons i:hover {
     padding: 8vw;
 }
 
-#blog-container .blogs {
+#blog-container .blogs-list {
     width: 60%;
 }
 
-#blog-container .blogs img {
+#blog-container .blogs-list img {
     width: 100%;
     border-radius: 19px;
 }
 
-#blog-container .blogs .post {
+#blog-container .blogs-list .post {
     padding-bottom: 60px;
 }
 
-#blog-container .blogs .post h3 {
+#blog-container .blogs-list .post h3 {
     color: #000000;
     padding: 15px 0 10px 0;
 }
 
-#blog-container .blogs .post p {
+#blog-container .blogs-list .post p {
     color: #2d2d2d;
     padding-bottom: 20px;
 }
 
-#blog-container .blogs .post a {
+#blog-container .blogs-list .post a {
     text-decoration: none;
     font-size: 0.9rem;
     padding: 13px 35px;
@@ -654,40 +654,40 @@ footer .copyright-container .brand-icons i:hover {
     font-weight: 600;
 }
 
-#blog-container .blogs .post a.crimson {
+#blog-container .blogs-list .post a.crimson {
     background-color: #710e1d;
     color: #fff;
     transition: 0.3s ease;
 }
 
-#blog-container .blogs .post a.crimson:hover {
+#blog-container .blogs-list .post a.crimson:hover {
     background-color: #cc9837;
 }
 
-#blog-container .cate {
+#blog-container .categories-list {
     width: 30%;
 }
 
-#blog-container .cate h2 {
+#blog-container .categories-list h2 {
     padding-bottom: 7px;
 }
 
-#blog-container .cate a {
+#blog-container .categories-list a {
     color: #2d2d2d;
     font-weight: 500;
     line-height: 45px;
 }
 
-#blog-container .cate a:hover {
+#blog-container .categories-list a:hover {
     color: #710e1d;
 }
 
-#blog-container .blogpost {
+#blog-container .blogpost-content {
     width: 60%;
     margin: 0 auto;
 }
 
-#blog-container .blogpost p {
+#blog-container .blogpost-content p {
     text-align: justify;
     padding-bottom: 60px !important;
 }
@@ -838,38 +838,38 @@ footer .copyright-container .brand-icons i:hover {
     justify-content: space-between;
 }
 
-#course-inner .overview .course-head .c-name .other-info div i {
+#course-inner .overview .course-head .course-information .other-info div i {
     color: #710e1d;
 }
 
-#course-inner .overview .course-head .c-name .other-info div span {
+#course-inner .overview .course-head .course-information .other-info div span {
     font-size: 0.9rem;
     color: #757373;
     margin-left: 10px;
 }
 
-#course-inner .overview .course-head .c-name {
+#course-inner .overview .course-head .course-information {
     width: 70%;
 }
 
-#course-inner .overview .course-head .c-name h2 {
+#course-inner .overview .course-head .course-information h2 {
     color: #000000;
 }
 
-#course-inner .overview .course-head .c-name .rate {
+#course-inner .overview .course-head .course-information .rate {
     margin: 6px 0;
 }
 
-#course-inner .overview .course-head .c-name .rate i {
+#course-inner .overview .course-head .course-information .rate i {
     color: #cc9837;
     font-size: 0.9rem;
 }
 
-#course-inner .overview .course-head .c-name p {
+#course-inner .overview .course-head .course-information p {
     font-size: 15px;
 }
 
-#course-inner .overview .course-head .price {
+#course-inner .overview .course-head .course-price {
     padding: 16px 22px;
     border-radius: 5px;
     color: #710e1d;
@@ -889,40 +889,40 @@ footer .copyright-container .brand-icons i:hover {
     margin-right: 20px;
 }
 
-#course-inner .tutor {
+#course-inner .course-instructor {
     display: flex;
     padding-bottom: 35px;
 }
 
-#course-inner .tutor img {
+#course-inner .course-instructor img {
     width: 70px;
     height: 70px;
     border-radius: 70%;
     margin-right: 20px;
 }
 
-#course-inner .tutor h5 {
+#course-inner .course-instructor h5 {
     font-size: 15px;
 }
 
-#course-inner .enroll {
+#course-inner .enrollment-container {
     width: 300px;
     padding: 0 30px 30px 30px;
     border-radius: 11px;
     box-shadow: 0px 5px 10px 0 #cccccc;
 }
 
-#course-inner .enroll h3 {
+#course-inner .enrollment-container h3 {
     padding-bottom: 10px;
 }
 
-#course-inner .enroll p {
+#course-inner .enrollment-container p {
     font-size: 15px;
     color: #2d2d2d;
     margin: 15px 0;
 }
 
-#course-inner .enroll p i {
+#course-inner .enrollment-container p i {
     color: #710e1d;
     font-weight: 500;
     margin-right: 18px;
@@ -932,37 +932,37 @@ footer .copyright-container .brand-icons i:hover {
     text-align: center;
 }
 
-#course-inner .enroll .enroll-btn {
+#course-inner .enrollment-container .enroll-btn {
     padding: 25px 0 25px 0;
     margin: auto;
     text-align: center;
 }
 
-#course-inner .enroll .enroll-btn a {
+#course-inner .enrollment-container .enroll-btn a {
     font-size: 0.8rem;
     padding: 13px 35px;
     border-radius: 5px;
     font-weight: 600;
 }
 
-#course-inner .enroll .enroll-btn a.aureate {
+#course-inner .enrollment-container .enroll-btn a.aureate {
     color: #fff;
     background-color: #cc9837;
     transition: 0.3s ease;
 }
 
-#course-inner .enroll .enroll-btn a.aureate:hover {
+#course-inner .enrollment-container .enroll-btn a.aureate:hover {
     background-color: #FFFFFF;
     color: #710e1d;
 }
 
-#course-inner .enroll .enroll-btn a.crimson {
+#course-inner .enrollment-container .enroll-btn a.crimson {
     color: #fff;
     background-color: #710e1d;
     transition: 0.3s ease;
 }
 
-#course-inner .enroll .enroll-btn a.crimson:hover {
+#course-inner .enrollment-container .enroll-btn a.crimson:hover {
     background-color: #cc9837;
 }
 
@@ -999,11 +999,11 @@ footer .copyright-container .brand-icons i:hover {
     align-items: flex-start;
 }
 
-#contact .getin {
+#contact .contact-information {
     width: 350px;
 }
 
-#contact .getin h2 {
+#contact .contact-information h2 {
     color: #000000;
     font-size: 30px;
     font-weight: 800;
@@ -1011,7 +1011,7 @@ footer .copyright-container .brand-icons i:hover {
     margin-bottom: 16px;
 }
 
-#contact .getin p {
+#contact .contact-information p {
     color: #2d2d2d;;
     line-height: 24px;
     margin-bottom: 33px;
@@ -1019,32 +1019,32 @@ footer .copyright-container .brand-icons i:hover {
     border-bottom: 1px solid #e5e4ed;
 }
 
-#contact .getin h3 {
+#contact .contact-information h3 {
     color: #000000;
     font-size: 16px;
     font-weight: 600;
     line-height: 26px;
     margin-bottom: 15px;
 }
-#contact .getin .getin-details div {
+#contact .contact-information .contact-details div {
     display: flex;
 }
 
-#contact .getin .getin-details div .get {
+#contact .contact-information .contact-details div .get {
     font-size: 16px;
     line-height: 22px;
     color: #710e1d;
     margin-right: 20px;
 }
 
-#contact .getin .getin-details div p {
+#contact .contact-information .contact-details div p {
     font-size: 14px;
     border-bottom: none;
     line-height: 22px;
     margin-bottom: 15px;
 }
 
-#contact .getin .getin-details .brand-icons i {
+#contact .contact-information .contact-details .brand-icons i {
     margin-right: 8px;
 }
 
@@ -1069,13 +1069,13 @@ footer .copyright-container .brand-icons i:hover {
     padding-bottom: 25px;
 }
 
-#contact .contact-form .form-row {
+#contact .contact-form .contact-form-row {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-#contact .contact-form .form-row input {
+#contact .contact-form .contact-form-row input {
     width: 48%;
     font-size: 14px;
     font-weight: 400;
@@ -1088,8 +1088,8 @@ footer .copyright-container .brand-icons i:hover {
     margin-bottom: 20px;
 }
 
-#contact .contact-form .form-col input,
-#contact .contact-form .form-col textarea {
+#contact .contact-form .contact-form-col input,
+#contact .contact-form .contact-form-col textarea {
     width: 100%;
     font-size: 14px;
     font-weight: 400;
@@ -1176,7 +1176,7 @@ footer .copyright-container .brand-icons i:hover {
 }
 
 @media (max-width: 912px) {
-    #blog-container .blogpost {
+    #blog-container .blogpost-content {
         width: 100%;
         margin-top: 70px;
     }
@@ -1277,11 +1277,11 @@ footer .copyright-container .brand-icons i:hover {
     #blog-container {
         padding: 8vw 4vw;
     }
-    #blog-container .blogpost {
+    #blog-container .blogpost-content {
         width: 100%;
         margin-top: 30px;
     }
-    #blog-container .blogpost img {
+    #blog-container .blogpost-content img {
         width: 100%;
         height: 50vh;
         object-fit: cover;
@@ -1311,7 +1311,7 @@ footer .copyright-container .brand-icons i:hover {
         align-content: flex-start;
         justify-content: flex-start;
     }
-    #contact .getin {
+    #contact .contact-information {
         width: 100%;
         margin-bottom: 30px;
         display: flex;
@@ -1323,19 +1323,19 @@ footer .copyright-container .brand-icons i:hover {
         width: 100%;
         padding: 40px 30px;
     }
-    #contact .contact-form .form-row {
+    #contact .contact-form .contact-form-row {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         width: 100%;
     }
-    #contact .contact-form .form-row input {
+    #contact .contact-form .contact-form-row input {
         width: 100%;
     }
 }
 
 @media (max-width: 540px) { 
-    #blog-container .blogpost {
+    #blog-container .blogpost-content {
         margin-top: 70px;
     }
 }
@@ -1391,31 +1391,31 @@ footer .copyright-container .brand-icons i:hover {
     #blog-container {
         flex-direction: column;
     }
-    #blog-container .blogs {
+    #blog-container .blogs-list {
         width: 100%;
     }
-    #blog-container .cate {
+    #blog-container .categories-list {
         width: 100%;
     }
-    #blog-container .blogpost {
+    #blog-container .blogpost-content {
         width: 100%;
         margin-top: 70px;
     }
-    #blog-container .blogpost img {
+    #blog-container .blogpost-content img {
         width: 100%;
         height: 50vh;
         object-fit: cover;
     }
-    #course-inner .overview .course-head .c-name {
+    #course-inner .overview .course-head .course-information {
         width: 50%;
     }
-    #course-inner .overview .course-head .c-name h2 {
+    #course-inner .overview .course-head .course-information h2 {
         font-size: 22px;
     }
-    #course-inner .overview .course-head .price {
+    #course-inner .overview .course-head .course-price {
         font-size: 22px;
     }
-    #course-inner .enroll {
+    #course-inner .enrollment-container {
         width: 100%;
     }
     #registration .countdown-date .time .date {
