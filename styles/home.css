@@ -1,0 +1,404 @@
+#home-header {
+    background-image: linear-gradient(#0905364d, #05042eb3), url('/images//background/background-home.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#home-header h2 {
+    color: #fff;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+#home-header p {
+    width: 50%;
+    color: #fff;
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+#home-header .btn {
+    margin-top: 30px;
+}
+
+#home-header a {
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#home-header a.crimson {
+    color: #fff;
+    background-color: #710e1d;
+    transition: 0.3s ease;
+}
+
+#home-header a.crimson:hover {
+    background-color: #cc9837;
+}
+
+#home-header a.aureate {
+    color: #fff;
+    background-color: #cc9837;
+    transition: 0.3s ease;
+}
+
+#home-header a.aureate:hover {
+    color: #710e1d;
+    background-color: #fff;
+}
+
+#features {
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#features p {
+    color: #2d2d2d;
+    font-weight: 400;
+}
+
+#features .features-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#features .features-box {
+    text-align: start;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 11px;
+    box-shadow: rgb(204, 204, 204) 0px 5px 10px 0px;
+}
+
+#features .features-box i {
+    font-size: 2.3rem;
+    color: #710e1d;
+}
+
+#features .features-box h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000000;
+    padding: 13px 0 7px 0;
+}
+
+#features .features-box p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #2d2d2d;
+}
+
+#home-course {
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+}
+
+#home-course p {
+    color: #2d2d2d;
+    font-weight: 400;
+}
+
+#home-course .courses .course-details .instructor {
+    font-size: 0.9rem;
+    color: #757373;
+}
+
+#home-course .course-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#home-course .courses {
+    text-align: start;
+    background-color: #ffffff;
+    height: 100%;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: rgb(204, 204, 204) 0px 5px 10px 0px;
+    padding-bottom: 10px;
+}
+
+#home-course .courses img {
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    border-radius: 5px;
+    background-position: center;
+}
+
+#home-course .courses .course-details {
+    padding: 15px 15px 0 15px;
+}
+
+#home-course .courses .course-details i {
+    color: #cc9837;
+    font-size: 0.9rem;
+}
+
+#home-course .courses .course-price {
+    background-color: #710e1d;
+    color: #fff;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 120px;
+}
+
+#registration {
+    padding: 6vw 8vw 6vw 8vw;
+    background-image: linear-gradient(#3a070780, #515be980), url('/images//background/background-registration.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#registration .registration-form h3 {
+    color: #000000;
+}
+
+#registration .countdown-date {
+    color: #fff;
+}
+
+#registration .countdown-date h1 {
+    color: #fff;
+}
+
+#registration .countdown-date .time {
+    display: flex;
+    margin-top: 40px;
+}
+
+#registration .countdown-date .time .date {
+    text-align: center;
+    padding: 13px 33px;
+    background-color: #ffffff40;
+    backdrop-filter: blur(4px);
+    box-shadow: 0 8px 32px 0 #1f26875e;
+    border-radius: 10px;
+    margin: 0 5px 10px 5px;
+    border: 1px solid #0000002e;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#registration .registration-form {
+    background-color: #f7f6fa;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: 0 8px 32px 0 #1f26875e;
+}
+
+#registration .registration-form input {
+    border-radius: 5px;
+    border: 1px solid #b0b1b3;
+    background-color: #fff;
+    color: #2d2d2d;
+    margin: 15px 0;
+    padding: 15px 10px;
+    outline: none;
+}
+
+#registration .registration-form input::placeholder {
+    color: #939393;
+    font-size: 0.9rem;
+}
+
+#registration .registration-form .btn {
+    margin-top: 20px;
+}
+
+#registration .registration-form a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#registration .registration-form a.crimson {
+    color: #fff;
+    background-color: #710e1d;
+    transition: 0.3s ease;
+}
+
+#registration .registration-form a.crimson:hover {
+    background-color: #cc9837;
+}
+
+#experts {
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+}
+
+#experts p {
+    color: #2d2d2d;
+}
+
+#experts .expert-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#experts .expert-container .expert-box {
+    background-color: #ffffff;
+    border-radius: 11px;
+    box-shadow: rgb(204, 204, 204) 0px 5px 10px 0px;
+    padding: 30px 10px;
+}
+
+#experts .expert-container .expert-box img {
+    border-radius: 50%;
+}
+
+#experts .expert-container .expert-box p {
+    font-weight: 400;
+    color: #2d2d2d;
+}
+
+.brand-icons {
+    margin-top: 10px;
+}
+
+.brand-icons i {
+    border-radius: 5px;
+    padding: 10px 13px;
+    color: #710e1d;
+    border: 1px solid #710e1d;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.brand-icons i:hover {
+    background-color: #710e1d;
+    color: #fff;
+}
+
+footer {
+    padding: 8vw;
+    background-color: #710e1d;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .footer-column {
+    padding-bottom: 40px;
+}
+
+footer h3 {
+    color: #f1f0f5;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+footer li {
+    list-style: none;
+    color: #b0b1b3;
+    padding: 10px 0;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+footer li:hover {
+    color: #f1f0f5;
+}
+
+footer p {
+    color: #b0b1b3;
+}
+
+footer .subscribe-container {
+    margin-top: 20px;
+}
+
+footer input {
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 5px;
+    color: #7e7c87;
+    width: 220px;
+    padding: 15px 12px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: #000000;
+}
+
+footer .subscribe-container a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 12px 15px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+footer .subscribe-container a.aureate {
+    color: #fff;
+    background-color: #cc9837;
+    transition: 0.3s ease;
+}
+
+footer .subscribe-container a.aureate:hover {
+    color: #710e1d;
+    background-color: #fff;
+}
+
+footer .copyright-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+footer .copyright-container p {
+    color: #fff;
+}
+
+footer .copyright-container .brand-icons {
+    margin-top: 0px;
+}
+
+footer .copyright-container .brand-icons i {
+    background-color: #fff;
+    color: #710e1d;
+    transition: 0.3s ease;
+}
+
+footer .copyright-container .brand-icons i:hover {
+    background-color: #cc9837;
+    color: #fff;
+}
