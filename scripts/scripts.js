@@ -26,11 +26,11 @@ activePage.forEach((element) => {
 |---------------------------------------------------------------------------------------------------------------------------------------
 */
 $('#menu-btn').click(function () {
-    $('nav .navigation ul').addClass('active')
+    $('nav .navigation-bar ul').addClass('active')
 });
 
-$('#menu-close').click(function(){
-    $('nav .navigation ul').removeClass('active')
+$('#menu-close-btn').click(function(){
+    $('nav .navigation-bar ul').removeClass('active')
 });
 
 /*
