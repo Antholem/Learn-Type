@@ -544,25 +544,25 @@ footer .copyright-container .brand-icons i:hover {
     font-weight: 400;
 }
 
-#about-container .about-text .about-fe {
+#about-container .about-text .about-features {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 30px;
 }
 
-#about-container .about-text .about-fe img {
+#about-container .about-text .about-features img {
     width: 50px;
     background-size: cover;
     background-position: center;
     margin-right: 20px;
 }
 
-#about-container .about-text .about-fe .fe-text {
+#about-container .about-text .about-features .features-text {
     width: 90%;
 }
 
-#about-container .about-text .about-fe .fe-text h5 {
+#about-container .about-text .about-features .features-text h5 {
     font-size: 16px;
     color: #000000;
 }
@@ -1196,7 +1196,7 @@ footer .copyright-container .brand-icons i:hover {
         font-size: 1.6rem;
         color: #710e1d;
     }
-    #menu-close {
+    #menu-close-btn {
         display: flex;
         cursor: pointer;
         font-size: 1.6rem;
