@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -196,12 +200,12 @@ nav .navigation-bar ul li a.active {
     color: #2d2d2d;
 }
 
-#courses {
+#courses .course-list {
     padding: 8vw 8vw 8vw 8vw;
     text-align: center;
 }
 
-#courses p {
+#courses .course-list p {
     color: #2d2d2d;
     font-weight: 400;
 }
@@ -258,7 +262,7 @@ nav .navigation-bar ul li a.active {
     bottom: 120px;
 }
 
-#registration {
+#courses .registration {
     padding: 6vw 8vw 6vw 8vw;
     background-image: linear-gradient(#3a070780, #515be980), url('/images//background/background-registration.png');
     width: 100%;
@@ -270,25 +274,25 @@ nav .navigation-bar ul li a.active {
     align-items: center;
 }
 
-#registration .registration-form h3 {
+#courses .registration .registration-form h3 {
     color: #000000;
     text-align: center;
 }
 
-#registration .countdown-date {
+#courses .registration .countdown-date {
     color: #fff;
 }
 
-#registration .countdown-date h1 {
+#courses .registration .countdown-date h1 {
     color: #fff;
 }
 
-#registration .countdown-date .time {
+#courses .registration .countdown-date .time {
     display: flex;
     margin-top: 40px;
 }
 
-#registration .countdown-date .time .date {
+#courses .registration .countdown-date .time .date {
     text-align: center;
     padding: 13px 33px;
     background-color: #ffffff40;
@@ -301,7 +305,7 @@ nav .navigation-bar ul li a.active {
     font-weight: 600;
 }
 
-#registration .registration-form {
+#courses .registration .registration-form {
     background-color: #f7f6fa;
     border-radius: 8px;
     display: flex;
@@ -310,7 +314,7 @@ nav .navigation-bar ul li a.active {
     box-shadow: 0 8px 32px 0 #1f26875e;
 }
 
-#registration .registration-form input {
+#courses .registration .registration-form input {
     border-radius: 5px;
     border: 1px solid #b0b1b3;
     background-color: #fff;
@@ -320,16 +324,16 @@ nav .navigation-bar ul li a.active {
     outline: none;
 }
 
-#registration .registration-form input::placeholder {
+#courses .registration .registration-form input::placeholder {
     color: #939393;
     font-size: 0.9rem;
 }
 
-#registration .registration-form .btn {
+#courses .registration .registration-form .btn {
     margin-top: 20px;
 }
 
-#registration .registration-form button {
+#courses .registration .registration-form button {
     text-decoration: none;
     width: 100%;
     font-size: 0.9rem;
@@ -341,7 +345,7 @@ nav .navigation-bar ul li a.active {
     cursor: pointer;
 }
 
-#registration .registration-form button.crimson {
+#courses .registration .registration-form button.crimson {
     color: #fff;
     background-color: #710e1d;
     transition: 0.3s ease;
@@ -349,38 +353,38 @@ nav .navigation-bar ul li a.active {
     justify-content: center;
 }
 
-#registration .registration-form button.crimson:hover {
+#courses .registration .registration-form button.crimson:hover {
     background-color: #cc9837;
 }
 
-#experts {
-    padding: 8vw 8vw 8vw 8vw;
+#features #experts {
+    margin-top: 8vw;
     text-align: center;
 }
 
-#experts p {
+#features #experts p {
     color: #2d2d2d;
 }
 
-#experts .expert-container {
+#features #experts .expert-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 1rem;
     margin-top: 50px;
 }
 
-#experts .expert-container .expert-box {
+#features #experts .expert-container .expert-box {
     background-color: #ffffff;
     border-radius: 11px;
     box-shadow: rgb(204, 204, 204) 0px 5px 10px 0px;
     padding: 30px 10px;
 }
 
-#experts .expert-container .expert-box img {
+#features #experts .expert-container .expert-box img {
     border-radius: 50%;
 }
 
-#experts .expert-container .expert-box p {
+#features #experts .expert-container .expert-box p {
     font-weight: 400;
     color: #2d2d2d;
 }
@@ -662,13 +666,6 @@ footer .copyright-container .brand-icons i:hover {
     color: #fff;
 }
 
-@media (max-width: 912px) {
-    #blog-container .blogpost-content {
-        width: 100%;
-        margin-top: 70px;
-    }
-}
-
 @media (max-width: 769px) {
     nav {
         padding: 15px 20px;
@@ -726,16 +723,16 @@ footer .copyright-container .brand-icons i:hover {
     #course {
         padding: 8vw 4vw 0 4vw;
     }
-    #registration {
+    #courses .registration {
         margin-top: 8vw;
         padding: 6vw 4vw 6vw 4vw;
     }
-    #registration .countdown-date .time {
+    #courses .registration .countdown-date .time {
         display: flex;
         flex-wrap: wrap;
         margin-top: 40px;
     }
-    #registration .countdown-date .time .date {
+    #courses .registration .countdown-date .time .date {
         display: flex;
         justify-content: center;
         width: 90px;
@@ -748,46 +745,6 @@ footer .copyright-container .brand-icons i:hover {
     }
     footer .copyright-container .brand-icons {
         margin-top: 15px;
-    }
-    #about-container {
-        padding: 8vw 4vw 2vw 4vw;
-    }
-    #about-container .about-img {
-        padding-right: 30px;
-    }
-    #prog-languages .prog-languages-img img {
-        width: 50px;
-        height: auto;
-    }
-    #blog-container {
-        padding: 8vw 4vw;
-    }
-    #blog-container .blogpost-content {
-        width: 100%;
-        margin-top: 30px;
-    }
-    #blog-container .blogpost-content img {
-        width: 100%;
-        height: 50vh;
-        object-fit: cover;
-    }
-    #course-inner {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 8vw 4vw;
-    }
-    #course-inner .overview {
-        width: 100%;
-    }
-    #course-inner .overview .course-img {
-        width: 100%;
-        height: 100%;
-    }
-    #course-inner .enroll {
-        margin-top: 25px;
-        width: 100%;
     }
     #contact {
         padding: 8vw 4vw;
@@ -818,24 +775,18 @@ footer .copyright-container .brand-icons i:hover {
     }
 }
 
-@media (max-width: 540px) { 
-    #blog-container .blogpost-content {
-        margin-top: 70px;
-    }
-}
-
 @media (max-width: 475px) {
     #courses .courses .course-details {
         padding: 15px 15px 40px 15px;
     }
-    #registration {
+    #courses .registration {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
-    #registration .countdown-date .time {
+    #courses .registration .countdown-date .time {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -847,60 +798,7 @@ footer .copyright-container .brand-icons i:hover {
         background-color: #FFFFFF;
         text-align: center;
     }
-    #about-container {
-        flex-direction: column-reverse;
-    }
-    #about-container .about-img {
-        width: 100%;
-        padding-right: 0px;
-    }
-    #about-container .about-text {
-        width: 100%;
-        padding-bottom: 20px;
-    }
-    #prog-languages .prog-languages-img {
-        margin-top: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-    #prog-languages .prog-languages-img img {
-        width: 60px;
-        height: auto;
-        margin: 10px 15px;
-    }
-    #blog-container {
-        flex-direction: column;
-    }
-    #blog-container .blogs-list {
-        width: 100%;
-    }
-    #blog-container .categories-list {
-        width: 100%;
-    }
-    #blog-container .blogpost-content {
-        width: 100%;
-        margin-top: 70px;
-    }
-    #blog-container .blogpost-content img {
-        width: 100%;
-        height: 50vh;
-        object-fit: cover;
-    }
-    #course-inner .overview .course-head .course-information {
-        width: 50%;
-    }
-    #course-inner .overview .course-head .course-information h2 {
-        font-size: 22px;
-    }
-    #course-inner .overview .course-head .course-price {
-        font-size: 22px;
-    }
-    #course-inner .enrollment-container {
-        width: 100%;
-    }
-    #registration .countdown-date .time .date {
+    #courses .registration .countdown-date .time .date {
         display: flex;
         justify-content: center;
         width: 75px;
